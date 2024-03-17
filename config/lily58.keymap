@@ -25,7 +25,7 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
         bluetooth_management {
-            if-layers = <LOWER UPPER3>;
+            if-layers = <LOWER UPPER>;
             then-layer = <BTADJUST>;
         };
     };
